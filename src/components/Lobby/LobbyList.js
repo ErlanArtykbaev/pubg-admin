@@ -9,7 +9,8 @@ const LobbyList = (props) => {
         <NumberField source='price' />
         <NumberField source='kill-award' />
         <TextField source='map' />
-        <DateField source='date-time' showTime={true} />
+        <DateField source='date' />
+        <TextField source='time' />
         <EditButton basePath='/lobbys' />
         <DeleteButton basePath='/lobbys' />
       </Datagrid>
